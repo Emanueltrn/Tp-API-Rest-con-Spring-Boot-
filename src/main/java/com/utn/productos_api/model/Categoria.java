@@ -1,20 +1,21 @@
 package com.utn.productos_api.model;
 
+import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.ToString;
 
 @Getter
-@ToString
 @RequiredArgsConstructor
 
 public enum Categoria {
-    ELECTRONICA("Electrónica"),
-    ROPA("Ropa"),
-    ALIMENTOS("Alimentos"),
-    HOGAR("Hogar"),
-    DEPORTES("Deportes");
+    ELECTRONICA,
+    ROPA,
+    ALIMENTOS,
+    HOGAR,
+    DEPORTES;
 
-    private final String descripcion;
-
+    @Override
+    public String toString() {
+        return name(); // devuelve solo "HOGAR"
+    }
 }

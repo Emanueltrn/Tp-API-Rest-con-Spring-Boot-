@@ -135,7 +135,7 @@ public class ProductoController {
 
     @Operation(summary = "Eliminar un producto", description = "Elimina un producto, si existe")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Producto eliminado"),
+            @ApiResponse(responseCode = "204", description = "Producto eliminado"),
             @ApiResponse(responseCode = "404", description = "Producto no encontrado",
                     content = @Content(
                             mediaType = "application/json",
@@ -144,7 +144,8 @@ public class ProductoController {
     })
     @DeleteMapping("/{id}")
     public ResponseEntity<ProductoResponseDTO> eliminar(@PathVariable Long id) {
-        return ResponseEntity.ok(productoService.eliminarProducto(id));
+        productoService.eliminarProducto(id);
+        return ResponseEntity.noContent().build();
     }
 
 }

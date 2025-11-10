@@ -23,7 +23,7 @@ public record ProductoDTO (
         @DecimalMin(value = "0")
         Integer stock,
 
-        @NotNull(message = "La catogoria no puede ser nula")
+        @NotNull(message = "La categoria no puede ser nula")
         Categoria categoria
 
 ){ }

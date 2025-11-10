@@ -1,13 +1,15 @@
 package com.utn.productos_api.model;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @Builder
+@ToString
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 
 @Entity
 public class Producto {

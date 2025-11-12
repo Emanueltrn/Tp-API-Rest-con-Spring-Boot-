@@ -46,7 +46,7 @@ O directamente desde el IDE ejecutando la clase `ProductosApiApplication`.
 ## 📸 Capturas de pantalla
 
 **Documentación completa de endpoints**
-1. Obtener producto por ID
+1. Obtener product por ID
 ![Captura de pantalla - GET productos 1°.png](capturas/Captura%20de%20pantalla%20-%20GET%20productos%201%C2%B0.png)
 ![Captura de pantalla - GET productos 2°.png](capturas/Captura%20de%20pantalla%20-%20GET%20productos%202%C2%B0.png)
 
@@ -57,7 +57,7 @@ O directamente desde el IDE ejecutando la clase `ProductosApiApplication`.
 ![Captura de pantalla - Actualizar producto 3°.png](capturas/Captura%20de%20pantalla%20-%20Actualizar%20producto%203%C2%B0.png)
 
 
-3. Eliminar producto
+3. Eliminar product
 ![Captura de pantalla - Eliminar producto 1°.png](capturas/Captura%20de%20pantalla%20-%20Eliminar%20producto%201%C2%B0.png)
 ![Captura de pantalla - Eliminar producto 2°.png](capturas/Captura%20de%20pantalla%20-%20Eliminar%20producto%202%C2%B0.png)
 
@@ -66,7 +66,7 @@ O directamente desde el IDE ejecutando la clase `ProductosApiApplication`.
 ![Captura de pantalla - Obtener todos los productos.png](capturas/Captura%20de%20pantalla%20-%20Obtener%20todos%20los%20productos.png)
 
 
-5. Crear un producto
+5. Crear un product
 ![Captura de pantalla - Crear un producto 1°.png](capturas/Captura%20de%20pantalla%20-%20Crear%20un%20producto%201%C2%B0.png)
 ![Captura de pantalla - Crear un producto 2°.png](capturas/Captura%20de%20pantalla%20-%20Crear%20un%20producto%202%C2%B0.png)
 
@@ -77,7 +77,7 @@ O directamente desde el IDE ejecutando la clase `ProductosApiApplication`.
 ![Captura de pantalla - Actualizar stock 3°.png](capturas/Captura%20de%20pantalla%20-%20Actualizar%20stock%203%C2%B0.png)
 
 
-7. Buscar por categoria
+7. Buscar pr categoria
 ![Captura de pantalla - Buscar por categoria 1°.png](capturas/Captura%20de%20pantalla%20-%20Buscar%20por%20categoria%201%C2%B0.png)
 ![Captura de pantalla - Buscar por categoria 2°.png](capturas/Captura%20de%20pantalla%20-%20Buscar%20por%20categoria%202%C2%B0.png)
 
@@ -102,7 +102,7 @@ O directamente desde el IDE ejecutando la clase `ProductosApiApplication`.
 ![Captura de pantalla - Base de Datos.png](capturas/Captura%20de%20pantalla%20-%20Base%20de%20Datos.png)
 
 ## 🔍 Instrucciones para acceder a Swagger UI y consola H2
-Asegurarse de que la aplicación esté corriendo (./gradlew bootRun).
+Asegurarse de que la aplicación esté corriendo (./gradlew bootRun)
 
 ### 📘 Swagger UI
 Abrir el navegador y acceder a:
@@ -143,6 +143,6 @@ Finalmente, considero que este trabajo fue una excelente oportunidad para integr
 y acercarme al desarrollo de aplicaciones reales con un enfoque mas profesional.
 
 ## 👤 Tu nombre y legajo
-**Nombre:** Mateo Gutierrez\
+**Nombre:** Emanuel tirano\
 **Comision:** 3k10\
-**Legajo:** 48855
+**Legajo:** 47471
